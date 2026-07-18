@@ -1,0 +1,156 @@
+.hero {
+  padding: 10rem 2rem 4rem;
+  background: var(--background);
+  text-align: center;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 6rem 2rem;
+}
+
+.sectionAlt {
+  background: var(--surface);
+  padding: 6rem 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.formCard {
+  background: var(--background);
+  border: 1px solid rgba(151, 67, 21, 0.1);
+  border-radius: 8px;
+  padding: 3rem;
+  box-shadow: 0 10px 30px rgba(151, 67, 21, 0.05);
+}
+
+.formGroup {
+  margin-bottom: 2rem;
+}
+
+.formLabel {
+  display: block;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  background: var(--surface);
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(151, 67, 21, 0.1);
+  transition: all 0.2s ease;
+}
+
+.radioLabel:hover {
+  border-color: var(--primary);
+}
+
+.radioLabel input {
+  accent-color: var(--primary);
+}
+
+.amountGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.amountBtn {
+  background: var(--surface);
+  border: 1px solid rgba(151, 67, 21, 0.1);
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+}
+
+.amountBtn:hover, .amountBtn.active {
+  background: var(--primary);
+  color: var(--background);
+  border-color: var(--primary);
+}
+
+.inputField {
+  width: 100%;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid rgba(151, 67, 21, 0.1);
+  border-radius: 4px;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 1rem;
+  color: var(--foreground);
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: var(--foreground);
+}
+
+.checkboxLabel input {
+  margin-top: 0.3rem;
+  accent-color: var(--primary);
+}
+
+.submitBtn {
+  display: block;
+  width: 100%;
+  background: var(--primary);
+  color: var(--background);
+  padding: 1.25rem;
+  border: none;
+  border-radius: 4px;
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submitBtn:hover {
+  background: #7a3510;
+}
