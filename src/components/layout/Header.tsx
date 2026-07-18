@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -6,8 +7,8 @@ export default function Header() {
     <header className={styles.header}>
       <div className="container">
         <nav className={styles.nav}>
-          <Link href="/" className={styles.logo}>
-            Vaidiga Samajam
+          <Link href="/" className={styles.logoLink}>
+            <Image src="/IMG_4594.PNG" alt="Vaidiga Samajam Logo" width={60} height={60} className={styles.logoImage} priority />
           </Link>
           <div className={styles.links}>
             <Link href="/about" className={styles.link}>About</Link>
