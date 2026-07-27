@@ -39,9 +39,7 @@
   margin: 2rem 0;
 }
 
-.heroLogo {
-  box-shadow: 0 10px 30px rgba(151, 67, 21, 0.15);
-}
+
 
 .tagline {
   font-family: var(--font-montserrat), sans-serif;

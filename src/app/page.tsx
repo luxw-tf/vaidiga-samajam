@@ -9,7 +9,7 @@ export default function Home() {
         <div className={styles.heroContent}>
           <p className={styles.tagline}>A Journey of Seva, Learning, and Dharma</p>
           <div className={styles.heroLogoWrapper}>
-            <Image src="/IMG_4594.PNG" alt="Vedam Foundation Logo" width={180} height={180} className={styles.heroLogo} priority />
+            <Image src="/vedam.png" alt="Vedam Foundation Logo" width={180} height={180} className={styles.heroLogo} priority />
           </div>
           <h1 className={styles.title}>Vedam Foundation</h1>
           <p className={styles.subtitle}>
