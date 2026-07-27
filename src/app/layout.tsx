@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Montserrat, Great_Vibes } from "next/font/google";
+import { Cormorant_Garamond, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 const cormorant = Cormorant_Garamond({
-  weight: ["500"],
+  weight: ["500", "600"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
   variable: "--font-cormorant",
 });
@@ -16,11 +17,7 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
-const greatVibes = Great_Vibes({
-  weight: ["400"],
-  subsets: ["latin"],
-  variable: "--font-great-vibes",
-});
+
 
 export const metadata: Metadata = {
   title: "Vedam Foundation",
@@ -33,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${montserrat.variable} ${greatVibes.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${montserrat.variable}`}>
       <body>
         <Header />
         <main style={{ flex: 1, paddingTop: '80px' }}>

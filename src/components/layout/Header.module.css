@@ -22,9 +22,11 @@
 }
 
 .logoText {
-  font-family: var(--font-great-vibes), cursive;
-  font-size: 2.6rem;
-  font-weight: 400;
+  font-family: var(--font-cormorant), serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: normal;
   color: var(--primary);
 }
 
@@ -112,7 +114,7 @@
 
 @media (max-width: 900px) {
   .logoText {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .desktopNav {
