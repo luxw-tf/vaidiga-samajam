@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className={styles.grid}>
           <div className={styles.brand}>
-            <h3>Sri Uttara Indraprastha Vaidiga Samajam</h3>
+            <h3>Vedam Foundation</h3>
             <p>A Place for Vedic Learning, Simple Living, and Spiritual Growth. A Journey of Seva, Learning, and Dharma.</p>
           </div>
           <div className={styles.links}>
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.bottom}>
-          &copy; {new Date().getFullYear()} Sri Uttara Indraprastha Vaidiga Samajam (Regd.). All rights reserved.
+          &copy; {new Date().getFullYear()} Vedam Foundation. All rights reserved.
         </div>
       </div>
     </footer>

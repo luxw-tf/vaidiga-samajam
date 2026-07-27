@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -16,7 +15,7 @@ export default function Header() {
       <div className="container">
         <nav className={styles.nav}>
           <Link href="/" className={styles.logoLink} onClick={closeMenu}>
-            <Image src="/IMG_4594.PNG" alt="Vaidiga Samajam Logo" width={60} height={60} className={styles.logoImage} priority />
+            <span className={styles.logoText}>Vedam</span>
           </Link>
           
           <div className={styles.desktopNav}>

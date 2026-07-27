@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Events | Sri Uttara Indraprastha Vaidiga Samajam',
+  title: 'Events | Vedam Foundation',
 };
 
 export default function EventsPage() {

@@ -21,9 +21,11 @@
   text-decoration: none;
 }
 
-.logoImage {
-  height: auto;
-  border-radius: 50%; /* Optional: if the logo needs a round background, remove if it's already transparent/shaped */
+.logoText {
+  font-family: var(--font-dancing), cursive;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary);
 }
 
 .links {

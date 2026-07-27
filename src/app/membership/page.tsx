@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Membership | Sri Uttara Indraprastha Vaidiga Samajam',
+  title: 'Membership | Vedam Foundation',
 };
 
 export default function MembershipPage() {

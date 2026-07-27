@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Donate | Sri Uttara Indraprastha Vaidiga Samajam',
+  title: 'Donate | Vedam Foundation',
 };
 
 export default function DonationsPage() {

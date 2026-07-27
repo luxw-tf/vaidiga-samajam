@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -7,7 +8,10 @@ export default function Home() {
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <p className={styles.tagline}>A Journey of Seva, Learning, and Dharma</p>
-          <h1 className={styles.title}>Sri Uttara Indraprastha Vaidiga Samajam</h1>
+          <div className={styles.heroLogoWrapper}>
+            <Image src="/IMG_4594.PNG" alt="Vedam Foundation Logo" width={180} height={180} className={styles.heroLogo} priority />
+          </div>
+          <h1 className={styles.title}>Vedam Foundation</h1>
           <p className={styles.subtitle}>
             A traditional Vedic Gurukulam fostering simple living and spiritual growth. 
             Join us in preserving our timeless heritage and shaping future generations.

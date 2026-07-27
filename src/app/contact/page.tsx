@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Contact Us | Sri Uttara Indraprastha Vaidiga Samajam',
+  title: 'Contact Us | Vedam Foundation',
 };
 
 export default function ContactPage() {
@@ -22,7 +22,7 @@ export default function ContactPage() {
               <div className={styles.infoItem}>
                 <h3 className={styles.infoTitle}>Address</h3>
                 <p className={styles.infoText}>
-                  Sri Uttara Indraprastha Vaidiga Samajam<br />
+                  Vedam Foundation<br />
                   123 Traditional Path, Heritage Enclave<br />
                   City Name, State, 123456<br />
                   India
@@ -105,7 +105,7 @@ export default function ContactPage() {
             <div className={styles.faqItem}>
               <h3 className={styles.faqQuestion}>Are donations tax-exempt?</h3>
               <p className={styles.faqAnswer}>
-                Yes, Sri Uttara Indraprastha Vaidiga Samajam is a registered organization. 
+                Yes, Vedam Foundation is a registered organization. 
                 Donations are eligible for tax exemption under section 80G of the Income Tax Act. 
                 Receipts will be provided for all contributions.
               </p>

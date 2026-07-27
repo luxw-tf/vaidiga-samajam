@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Montserrat } from "next/font/google";
+import { Cormorant_Garamond, Montserrat, Dancing_Script } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -16,8 +16,14 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
+const dancingScript = Dancing_Script({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-dancing",
+});
+
 export const metadata: Metadata = {
-  title: "Sri Uttara Indraprastha Vaidiga Samajam",
+  title: "Vedam Foundation",
   description: "A Place for Vedic Learning, Simple Living, and Spiritual Growth.",
 };
 
@@ -27,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${montserrat.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${montserrat.variable} ${dancingScript.variable}`}>
       <body>
         <Header />
         <main style={{ flex: 1, paddingTop: '80px' }}>

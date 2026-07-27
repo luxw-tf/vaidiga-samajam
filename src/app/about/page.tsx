@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'About Us | Sri Uttara Indraprastha Vaidiga Samajam',
+  title: 'About Us | Vedam Foundation',
 };
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
           <h2 className={styles.sectionTitle}>Vision & Mission</h2>
           <div className={styles.textContent}>
             <p>
-              Established in 2009, Sri Uttara Indraprastha Vaidiga Samajam (Regd.) was founded with the 
+              Established in 2009, Vedam Foundation was founded with the 
               vision of creating a sanctuary for traditional Vedic learning in the modern world.
             </p>
             <br/>
